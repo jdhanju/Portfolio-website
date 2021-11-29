@@ -30,7 +30,26 @@
 }
 
 .content {
-  max-width: 600px;
+  max-width: 700px;
   margin: 40px auto;
   padding: 20px;
+}
+
+.home-content {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.home-content h1 {
+  font-size: 75px;
+  padding-bottom: 15px;
+}
+
+.home-content h2 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+.home-content h3 {
+  font-size: 50px;
 }
