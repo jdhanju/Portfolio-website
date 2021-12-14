@@ -1,11 +1,9 @@
-
+import Box from "./Components/Box";
 
 function Experience(){
 
     return(
-        <div>
-            <p>"In Experience"</p>
-        </div>
+        <Box />
     );
 }
 
