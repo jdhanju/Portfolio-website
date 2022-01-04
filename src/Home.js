@@ -5,7 +5,7 @@ function Home(){
     return(
         <div class="home-content">
             <FadeIn transitionDuration={600}>
-                <h1>Welcome!</h1>
+                <h1 id="welcome">Welcome!</h1>
             </FadeIn>
             <FadeIn transitionDuration={600} delay={200}>
                 <h2>I'm Jaiveer Dhanju.</h2>

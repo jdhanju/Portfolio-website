@@ -1,10 +1,9 @@
-import Experience from "../experience";
 
 function Navbar(){
     return(
         <div>
-            <nav className = 'navbar'>
-                <div className="links">
+            <nav className = 'topNavBar'>
+                <div className="topLinks">
                     <a href="/">Home</a>
                     <a href="/About">About</a>
                     <a href="/Experience">Experience</a>
