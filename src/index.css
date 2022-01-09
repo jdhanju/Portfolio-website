@@ -69,7 +69,7 @@ h3 {
 .content {
   max-width: 700px !important;
   margin: 40px auto !important;
-  padding: 20px !important;
+  padding-top: 20px !important;
 }
 
 .home-content {
@@ -124,12 +124,12 @@ h3 {
   opacity: 0.6;
 }
 
-.myFace{
+.myFace {
   height: 300px;
   width: 230px;
   padding-bottom: 10px;
 }
 
-.aboutContent{
+.aboutContent {
   text-align: center !important;
 }
