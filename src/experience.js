@@ -1,6 +1,7 @@
 import Box from "./Components/Box";
 import RainforestModal from './Modals/rainforestModel'
 import React, { useState } from 'react';
+import FadeIn from "react-fade-in/lib/FadeIn";
 
 
 function Experience(){
@@ -11,8 +12,10 @@ function Experience(){
 
     return(
         <div>
-            <Box modalShow = {handleRfShow}/>
-            <RainforestModal modalShow={rainforestModalState} modalHide = {handleRfClose}/>
+            <FadeIn transitionDuration={600}>
+                <Box modalShow = {handleRfShow}/>
+                <RainforestModal modalShow={rainforestModalState} modalHide = {handleRfClose}/>
+            </FadeIn>
         </div>
     );
 }

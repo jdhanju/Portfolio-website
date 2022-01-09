@@ -126,10 +126,21 @@ h3 {
 
 .myFace {
   height: 300px;
-  width: 230px;
-  padding-bottom: 10px;
+  width: 300px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .aboutContent {
   text-align: center !important;
+}
+
+.mySocials {
+  padding-right: 10px;
+}
+
+.socialContainer {
+  display: flex;
+  justify-content: center;
 }
