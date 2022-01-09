@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jdhanju.github.io/jaiveer-site",
+  "homepage": "http://jdhanju.github.io/",
   "name": "jaiveer-site",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
