@@ -1,4 +1,3 @@
-import face from './images/face.png'
 import face2 from './images/face2.png'
 import { SocialIcon } from 'react-social-icons';
 import FadeIn from "react-fade-in/lib/FadeIn";

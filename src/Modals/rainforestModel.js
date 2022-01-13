@@ -4,7 +4,7 @@ function RainforestModal(props){
     return(
         <Modal show={props.modalShow} onHide = {props.modalHide}>
             <Modal.Header closeButton>
-            <Modal.Title>Rainforest Automation</Modal.Title>
+            <Modal.Title>Software Developer at Rainforest Automation</Modal.Title>
             </Modal.Header>
 
             <Modal.Body style={{ fontWeight: 'bold' }}>Duration: May 2021 - Dec 2021 (8 Months)</Modal.Body>
