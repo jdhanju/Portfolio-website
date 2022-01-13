@@ -10,6 +10,12 @@ function Projects(){
                 <br />
                 <br />
                 <Box icon={'Safe Restaurants'}/>
+                <br />
+                <br />
+                <Box icon={'Bon Voyage'}/>
+                <br />
+                <br />
+                <Box icon={'Bacteria Cell'}/>
             </FadeIn>
         </div>
     );
